@@ -1,6 +1,6 @@
 {
   "name": "sdaleshin-aur-test",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
