@@ -1,16 +1,20 @@
 {
   "name": "sdaleshin-aur-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build" : "tsc",
-    "prepare" : "npm run build",
-    "postversion" : "git push && git push --tags"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "postversion": "git push && git push --tags"
   },
-  "files": ["lib/**/*"],
-  "keywords": ["Hello"],
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "Hello"
+  ],
   "author": "sdaleshin",
   "license": "ISC",
   "devDependencies": {
