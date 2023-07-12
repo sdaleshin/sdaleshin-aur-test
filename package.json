@@ -1,13 +1,17 @@
 {
   "name": "sdaleshin-aur-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A nice greeter",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build" : "tsc"
+    "build" : "tsc",
+    "prepare" : "npm run build",
+    "postversion" : "git push && git push --tags"
   },
-  "keywords": [],
-  "author": "",
+  "files": ["lib/**/*"],
+  "keywords": ["Hello"],
+  "author": "sdaleshin",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.1.6"
